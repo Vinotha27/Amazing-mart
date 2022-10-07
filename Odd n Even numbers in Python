@@ -1,0 +1,15 @@
+def splitevenodd(A): 
+   evennumber = [] 
+   oddnumber = [] 
+   for i in A: 
+      if (i % 2 == 0): 
+         evennumber.append(i) 
+      else: 
+         oddnumber.append(i) 
+   print("Even Number:", evennumber) 
+   print("Odd Number:", oddnumber) 
+A=list()
+n=int(input("Enter the value :"))
+for i in range(0,n):
+  A.append(i)
+splitevenodd(A) 
